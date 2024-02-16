@@ -52,9 +52,9 @@ javafx {
      * platforms javafx to be bundled to create local build. Can be added in
      * command line with "-PlocalOnly=true."
      */
-    if (!System.getProperty('idea.active') && !(localOnly.toBoolean())) {
-        configuration = "compileOnly"
-    }
+    // if (!System.getProperty('idea.active') && !(localOnly.toBoolean())) {
+    //   configuration = "compileOnly"
+    //}
 }
 
 // Set the groupId as it helps with Maven
